@@ -1,0 +1,109 @@
+<2019-10-08 16:16:06,991> DEBUG    - Logging Logging has been initialized!
+<2019-10-08 16:16:06,991> INFO     - Validated Environment:  'RAg0E1AlMwbRNAvJ0Kp1HfRfnziUnH1-BS-v2mTijQk='
+<2019-10-08 16:16:06,992> DEBUG    - Starting preparation_workflow...
+<2019-10-08 16:16:06,992> INFO     - Initialized Experiment: 'cd52e0ed-8d0d-4002-b0d3-0b64459c2de8'
+<2019-10-08 16:16:06,993> DEBUG    - Created source backup:  '/Users/gaofan/Desktop/FeatureEngineering/HyperparameterHunter.py'
+<2019-10-08 16:16:06,993> DEBUG    - Experiment parameters have been validated
+<2019-10-08 16:16:07,022> INFO     - Hyperparameter Key:     'XyJiCWyRcloZip7NOC9CJXrRxzZgbMRjdYeQ_96gtAg='
+<2019-10-08 16:16:07,022> DEBUG    - Raw hyperparameters...
+<2019-10-08 16:16:07,022> DEBUG    - {'model_initializer': 'wxU5h7cHVipr2adj8yCDCGfLavr6G3OllAFEMz9F0XQ=', 'model_init_params': {'max_depth': 3, 'learning_rate': 0.1, 'n_estimators': 100, 'verbosity': 1, 'silent': None, 'objective': 'reg:linear', 'booster': 'gbtree', 'n_jobs': 1, 'nthread': None, 'gamma': 0, 'min_child_weight': 1, 'max_delta_step': 0, 'subsample': 1, 'colsample_bytree': 1, 'colsample_bylevel': 1, 'colsample_bynode': 1, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'base_score': 0.5, 'random_state': 0, 'seed': None, 'missing': None}, 'model_extra_params': {}, 'feature_engineer': {'steps': [], 'do_validate': False, 'datasets': {}}, 'feature_selector': ['mean_radius', 'mean_texture', 'mean_perimeter', 'mean_area', 'mean_smoothness', 'mean_compactness', 'mean_concavity', 'mean_concave_points', 'mean_symmetry', 'mean_fractal_dimension', 'radius_error', 'texture_error', 'perimeter_error', 'area_error', 'smoothness_error', 'compactness_error', 'concavity_error', 'concave_points_error', 'symmetry_error', 'fractal_dimension_error', 'worst_radius', 'worst_texture', 'worst_perimeter', 'worst_area', 'worst_smoothness', 'worst_compactness', 'worst_concavity', 'worst_concave_points', 'worst_symmetry', 'worst_fractal_dimension']}
+<2019-10-08 16:16:07,022> DEBUG    - Completed preparation_workflow
+<2019-10-08 16:16:07,031> DEBUG    - BaseExperiment._random_seed_initializer() done
+<2019-10-08 16:16:07,031> DEBUG    - Initialized random seeds for experiment
+<2019-10-08 16:16:07,050> DEBUG    - Initial preprocessing stage complete
+<2019-10-08 16:16:07,051> INFO     - 
+<2019-10-08 16:16:07,052> DEBUG    - BaseCallback.on_exp_start()
+<2019-10-08 16:16:07,053> DEBUG    - BaseCallback.on_rep_start()
+<2019-10-08 16:16:07,071> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:07,071> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:07,073> DEBUG    - R0-f0-r0  |  Seed: 10967   Time: 16:16:07
+<2019-10-08 16:16:07,073> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:07,279> DEBUG    - R0-f0-r0  |  OOF(roc_auc_score=0.95455)  |  Time: 0.2065 s
+<2019-10-08 16:16:07,280> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:07,302> INFO     - R0-f0-r-  |  OOF(roc_auc_score=0.95455)  |  Time: 0.23056 s
+<2019-10-08 16:16:07,302> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:07,307> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:07,307> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:07,307> DEBUG    - R0-f1-r0  |  Seed: 75062   Time: 16:16:07
+<2019-10-08 16:16:07,307> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:07,474> DEBUG    - R0-f1-r0  |  OOF(roc_auc_score=0.93561)  |  Time: 0.16703 s
+<2019-10-08 16:16:07,474> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:07,490> INFO     - R0-f1-r-  |  OOF(roc_auc_score=0.93561)  |  Time: 0.18307 s
+<2019-10-08 16:16:07,490> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:07,497> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:07,497> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:07,498> DEBUG    - R0-f2-r0  |  Seed: 60284   Time: 16:16:07
+<2019-10-08 16:16:07,498> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:07,678> DEBUG    - R0-f2-r0  |  OOF(roc_auc_score=0.90476)  |  Time: 0.18048 s
+<2019-10-08 16:16:07,678> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:07,692> INFO     - R0-f2-r-  |  OOF(roc_auc_score=0.90476)  |  Time: 0.19518 s
+<2019-10-08 16:16:07,693> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:07,698> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:07,699> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:07,699> DEBUG    - R0-f3-r0  |  Seed: 20414   Time: 16:16:07
+<2019-10-08 16:16:07,699> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:07,877> DEBUG    - R0-f3-r0  |  OOF(roc_auc_score=0.96230)  |  Time: 0.17794 s
+<2019-10-08 16:16:07,877> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:07,892> INFO     - R0-f3-r-  |  OOF(roc_auc_score=0.96230)  |  Time: 0.1937 s
+<2019-10-08 16:16:07,892> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:07,900> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:07,900> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:07,901> DEBUG    - R0-f4-r0  |  Seed: 24828   Time: 16:16:07
+<2019-10-08 16:16:07,901> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:08,084> DEBUG    - R0-f4-r0  |  OOF(roc_auc_score=0.92460)  |  Time: 0.18318 s
+<2019-10-08 16:16:08,084> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:08,099> INFO     - R0-f4-r-  |  OOF(roc_auc_score=0.92460)  |  Time: 0.19941 s
+<2019-10-08 16:16:08,099> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:08,104> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:08,104> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:08,105> DEBUG    - R0-f5-r0  |  Seed: 85063   Time: 16:16:08
+<2019-10-08 16:16:08,105> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:08,277> DEBUG    - R0-f5-r0  |  OOF(roc_auc_score=0.91468)  |  Time: 0.17183 s
+<2019-10-08 16:16:08,277> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:08,292> INFO     - R0-f5-r-  |  OOF(roc_auc_score=0.91468)  |  Time: 0.18821 s
+<2019-10-08 16:16:08,293> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:08,298> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:08,298> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:08,299> DEBUG    - R0-f6-r0  |  Seed: 53758   Time: 16:16:08
+<2019-10-08 16:16:08,299> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:08,469> DEBUG    - R0-f6-r0  |  OOF(roc_auc_score=0.98611)  |  Time: 0.17046 s
+<2019-10-08 16:16:08,469> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:08,482> INFO     - R0-f6-r-  |  OOF(roc_auc_score=0.98611)  |  Time: 0.18415 s
+<2019-10-08 16:16:08,483> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:08,487> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:08,487> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:08,487> DEBUG    - R0-f7-r0  |  Seed: 52995   Time: 16:16:08
+<2019-10-08 16:16:08,487> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:08,649> DEBUG    - R0-f7-r0  |  OOF(roc_auc_score=0.93333)  |  Time: 0.16156 s
+<2019-10-08 16:16:08,649> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:08,664> INFO     - R0-f7-r-  |  OOF(roc_auc_score=0.93333)  |  Time: 0.17693 s
+<2019-10-08 16:16:08,664> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:08,670> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:08,671> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:08,671> DEBUG    - R0-f8-r0  |  Seed: 91370   Time: 16:16:08
+<2019-10-08 16:16:08,671> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:08,861> DEBUG    - R0-f8-r0  |  OOF(roc_auc_score=0.97619)  |  Time: 0.18954 s
+<2019-10-08 16:16:08,861> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:08,876> INFO     - R0-f8-r-  |  OOF(roc_auc_score=0.97619)  |  Time: 0.20546 s
+<2019-10-08 16:16:08,876> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:08,882> DEBUG    - BaseCallback.on_fold_start()
+<2019-10-08 16:16:08,883> DEBUG    - Intra-CV preprocessing stage complete
+<2019-10-08 16:16:08,883> DEBUG    - R0-f9-r0  |  Seed: 40969   Time: 16:16:08
+<2019-10-08 16:16:08,883> DEBUG    - BaseCallback.on_run_start()
+<2019-10-08 16:16:09,063> DEBUG    - R0-f9-r0  |  OOF(roc_auc_score=0.97143)  |  Time: 0.17983 s
+<2019-10-08 16:16:09,063> DEBUG    - BaseCallback.on_run_end()
+<2019-10-08 16:16:09,077> INFO     - R0-f9-r-  |  OOF(roc_auc_score=0.97143)  |  Time: 0.19473 s
+<2019-10-08 16:16:09,077> DEBUG    - BaseCallback.on_fold_end()
+<2019-10-08 16:16:09,092> DEBUG    - R0-f--r-  |  OOF(roc_auc_score=0.94642)  |  Time: 2.03878 s
+<2019-10-08 16:16:09,092> DEBUG    - BaseCallback.on_rep_end()
+<2019-10-08 16:16:09,101> INFO     - [34mFINAL     |  OOF(roc_auc_score=0.94642)  |  Time: 2.0493 s[0m
+<2019-10-08 16:16:09,101> DEBUG    - BaseCallback.on_exp_end()
+<2019-10-08 16:16:09,102> INFO     - 
+<2019-10-08 16:16:09,170> INFO     - Saving results for Experiment: 'cd52e0ed-8d0d-4002-b0d3-0b64459c2de8'
+<2019-10-08 16:16:09,170> DEBUG    - Saving result file for 'TestedKeyRecorder'
+<2019-10-08 16:16:09,172> DEBUG    - Saved cross_experiment_key: "RAg0E1AlMwbRNAvJ0Kp1HfRfnziUnH1-BS-v2mTijQk="
+<2019-10-08 16:16:09,174> DEBUG    - Saved hyperparameter_key: "XyJiCWyRcloZip7NOC9CJXrRxzZgbMRjdYeQ_96gtAg="
+<2019-10-08 16:16:09,176> DEBUG    - Saving result file for 'LeaderboardEntryRecorder'
+<2019-10-08 16:16:09,185> DEBUG    - Saving result file for 'DescriptionRecorder'
+<2019-10-08 16:16:09,188> DEBUG    - Saving result file for 'PredictionsOOFRecorder'
+<2019-10-08 16:16:09,194> DEBUG    - Saving result file for 'HeartbeatRecorder'

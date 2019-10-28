@@ -1,0 +1,4 @@
+oof_roc_auc_score,experiment_id,hyperparameter_key,cross_experiment_key,algorithm_name,experiment_#
+0.9464153586,cd52e0ed-8d0d-4002-b0d3-0b64459c2de8,XyJiCWyRcloZip7NOC9CJXrRxzZgbMRjdYeQ_96gtAg=,RAg0E1AlMwbRNAvJ0Kp1HfRfnziUnH1-BS-v2mTijQk=,XGBClassifier,0
+0.9370540669,44e03fc0-7601-4f92-91a9-8c662edba79a,Rpc2a-dmnzaAVlzjRm9syOnuYmnFIoa2gq9P1owTkaw=,RAg0E1AlMwbRNAvJ0Kp1HfRfnziUnH1-BS-v2mTijQk=,XGBClassifier,1
+0.9356535067,9c810e26-0327-45c3-abe9-58534b12cc68,idLlyVGiB4jzV6Gn-ofD_x2f1dz9kO8tGoHMK_VtHHo=,RAg0E1AlMwbRNAvJ0Kp1HfRfnziUnH1-BS-v2mTijQk=,XGBClassifier,2
